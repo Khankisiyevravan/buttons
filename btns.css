@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+button{
+    background-color: rgb(238, 49, 49);
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+}
+button:hover{
+    color: black;
+    transition-duration: 1s;
+}
+.container{
+    margin: 20px auto;
+    width: 70%;
+}
+#btn1:hover div{
+    left: 0;
+    transition-duration: 1s;
+    
+}
+#btn1{
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+#btn1 div{
+    width: 100%;
+    height: 100%;
+    background-color: cyan;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: -1;
+}
+#btn2:hover div{
+    right: 0;
+    transition-duration: 1s;
+    
+}
+#btn2{
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+#btn2 div{
+    width: 100%;
+    height: 100%;
+    background-color: cyan;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    z-index: -1;
+}
+#btn3:hover div{
+    top: 0;
+    transition-duration: 1s;
+    
+}
+#btn3{
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+#btn3 div{
+    width: 100%;
+    height: 100%;
+    background-color: cyan;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    z-index: -1;
+}
+#btn4{
+z-index: 0;
+overflow: hidden;
+position: relative;
+}
+#btn4:hover div{
+left: 0;
+bottom: 0;
+transition-duration: 1s;
+}
+#btn4 div{
+z-index: -1;
+position: absolute;
+bottom: -100%;
+width: 100%;
+height: 100%;
+background-color: cyan;
+
+}
+#btn5:hover div{
+    left: 0;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.93,2,.57,.07);
+    
+}
+#btn5{
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+#btn5 div{
+    width: 100%;
+    height: 100%;
+    background-color: cyan;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: -1;
+}
+#btn6:hover div{
+    right: 0;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.93,2,.57,.07);
+    
+}
+#btn6{
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+#btn6 div{
+    width: 100%;
+    height: 100%;
+    background-color: cyan;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    z-index: -1;
+}
+#btn7:hover div{
+    top: 0;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.93,2,.57,.07);
+}
+#btn7{
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+#btn7 div{
+    width: 100%;
+    height: 100%;
+    background-color: cyan;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    z-index: -1;
+}
+#btn8{
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
+    }
+#btn8:hover div{
+    left: 0;
+    bottom: 0;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.93,2,.57,.07);
+    }
+#btn8 div{
+    z-index: -1;
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: cyan;
+    }
+#btn9{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+#btn9:hover div{
+    width:100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transition-duration: 1s;
+}
+#btn9 div{
+    width: 0;
+    height: 0;
+    background-color: cyan;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+#btn10{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+#btn12{
+    z-index:0;
+    overflow: hidden;
+    position: relative;
+}
+#btn10:hover div{
+    width:0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    transition-duration: 2s;
+}
+#btn12:hover div{
+    height: 0;
+    width: 0;
+    transition: 2s;
+    top: 50%;
+    left: 50%;
+}
+#btn10 div{
+    top: 50%;
+    left: 50%;
+    width:100%;
+    height: 100%;
+    background-color: rgb(238, 49, 49);
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+#btn12 div{
+    width:100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(238, 49, 49);
+    z-index: -1;
+    position: absolute;
+}
+#btn10:hover{
+    background-color: cyan;
+}
+
+#btn12:hover{
+    background-color: cyan;
+}
+
+
+#btn11{
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+}
+#btn11 div{
+    height: 0;
+    width: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: cyan;
+    z-index: -1;
+    position: absolute;
+}
+#btn11:hover div{
+    height: 100%;
+    width: 100%;
+    transition-duration: 1s;
+}
+#btn13{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+#btn13 div{
+    position: absolute;
+    z-index: -1;
+    width: 0%;
+    height: 100%;
+    background-color: cyan;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#btn13:hover div{
+    width: 100%;
+    transition: 1s;
+}
